@@ -2,8 +2,8 @@ require 'formula'
 
 class Gcf < Formula
   homepage 'https://github.com/cloudfoundry/cli'
-  url 'https://github.com/cloudfoundry/cli.git', :tag => 'v6.0.0-beta'
-  version '6.0.0-beta'
+  url 'https://github.com/cloudfoundry/cli.git', :tag => 'v6.0.0-beta2'
+  version '6.0.0-beta2'
 
   head 'https://github.com/cloudfoundry/cli.git', :branch => 'master'
 
