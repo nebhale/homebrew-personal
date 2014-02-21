@@ -13,7 +13,7 @@ brew tap nebhale/personal
 Now you can work on those formulae as if there were in canonical Homebrew repository:
 
 ```bash
-brew install gcf
+brew install cloud-foundry-cli
 brew install ngrok
 ```
 
