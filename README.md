@@ -13,8 +13,8 @@ brew tap nebhale/personal
 Now you can work on those formulae as if there were in canonical Homebrew repository:
 
 ```bash
-brew install gcf
-brew install ngrok
+brew install cfenv
+brew install cfenv-environments
 ```
 
 [Homebrew Tap]: https://github.com/mxcl/homebrew/wiki/brew-tap
