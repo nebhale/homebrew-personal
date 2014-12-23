@@ -14,7 +14,7 @@ Now you can work on those formulae as if there were in canonical Homebrew reposi
 
 ```bash
 brew install cfenv
-brew install cfenv-environments
+brew install cf-build
 ```
 
 [Homebrew Tap]: https://github.com/mxcl/homebrew/wiki/brew-tap
