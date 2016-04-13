@@ -4,7 +4,7 @@ class Cfenv < Formula
   head 'https://github.com/nebhale/cfenv.git'
   homepage 'https://github.com/nebhale/cfenv'
   url 'https://github.com/nebhale/cfenv/archive/v1.0.0.tar.gz'
-  sha1 '5e46ebed93540470d207ff404b70bff6af4a87d9'
+  sha256 '57a96e09a75eeccc1df2c16ff0492e7a0c97b93be8d11b883fc46c2ce8fa1584'
 
   def install
     inreplace 'libexec/cfenv', '/usr/local', HOMEBREW_PREFIX

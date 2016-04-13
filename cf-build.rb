@@ -4,7 +4,7 @@ class CfBuild < Formula
   head 'https://github.com/nebhale/cf-build.git'
   homepage 'https://github.com/nebhale/cf-build'
   url 'https://github.com/nebhale/cf-build/archive/v1.0.0.tar.gz'
-  sha1 '51f52e81de95e385eb88217915531d8c7dbe7680'
+  sha256 'f526a83cb9915d960360a1cbe62705570eb06358d8e47f57c552836ab8adb414'
 
   depends_on 'cfenv' => :run
   depends_on 'cloudfoundry-cli' => :run
