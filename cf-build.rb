@@ -7,7 +7,7 @@ class CfBuild < Formula
   sha256 'f526a83cb9915d960360a1cbe62705570eb06358d8e47f57c552836ab8adb414'
 
   depends_on 'cfenv' => :run
-  depends_on 'cloudfoundry-cli' => :run
+  depends_on 'cf-cli' => :run
 
   def install
     ENV['PREFIX'] = prefix
