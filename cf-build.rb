@@ -6,8 +6,8 @@ class CfBuild < Formula
   url 'https://github.com/nebhale/cf-build/archive/v1.0.0.tar.gz'
   sha256 'f526a83cb9915d960360a1cbe62705570eb06358d8e47f57c552836ab8adb414'
 
-  depends_on 'cfenv' => :run
-  depends_on 'cf-cli' => :run
+  depends_on 'cfenv'
+  depends_on 'cf-cli'
 
   def install
     ENV['PREFIX'] = prefix
