@@ -11,7 +11,7 @@ class Cfenv < Formula
     prefix.install Dir['*']
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
     To use Homebrew's directories rather than ~/.cfenv add to your profile:
       export CFENV_ROOT=#{var}/cfenv
 
